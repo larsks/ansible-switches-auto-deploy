@@ -1,0 +1,41 @@
+{
+  "username": "Notify Test",
+  "attachments": [
+    {
+      "color": "#00ff00",
+      "blocks": [
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "Changes detected in switch configuration.\n<https://github.com/|View commit>"
+          }
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "Switches with updated configuration"
+          }
+        },
+        {
+          "type": "section",
+          "fields": [
+            {
+              "type": "mrkdwn",
+              "text": "*this is markdown text*"
+            },
+            {
+              "type": "plain_text",
+              "text": "*this is plain_text text*",
+              "emoji": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
